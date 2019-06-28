@@ -1,0 +1,12 @@
+#container-footer
+{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+}
+
+.container-map
+{
+    height: 430px;
+    width: 100%;
+}

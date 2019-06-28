@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CISP</title>
+        <meta charset="UTF-8">        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>      
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">  
+
+    </head>
+    <body style="background-color: black">
+        <div class="card-header bg-info text-white">
+            <h3 align="center">LISTA DE RECURSOS</h3>
+        </div>
+        <div class="container mt-1">        
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card-header bg-info text-black">
+                        <a onclick="cargaProductos()" class="btn btn-light">Visualizar</a>
+                    </div>
+                    <div class="card">
+                        <div id="idProductos" class="card-body">
+                            <h5 class="card-title">Productos disponibles</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card-header bg-info text-black">
+                        <a onclick="cargaProductos()" class="btn btn-light">Visualizar</a>
+                    </div>
+                    <div class="card">
+                        <div id="idServicios" class="card-body">
+                            <h5 class="card-title">Servicios disponibles</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>         
+        </div>                
+    </body>
+</html>
